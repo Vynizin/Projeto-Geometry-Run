@@ -2,6 +2,9 @@ extends Node2D
 
 @export var rhythm_manager_path: NodePath
 var rhythm_manager
+var player_start_x: float
+var finish_x: float
+
 
 func _ready():
 	rhythm_manager = get_node(rhythm_manager_path)
@@ -11,7 +14,17 @@ func _ready():
 
 	# garante que a UI NÃO aparece no início
 	$VitoriaUI.visible = false
+	# o Area2D de vitória
 
+	var player = get_tree().current_scene.get_node("Player")
+	player_start_x = player.global_position.x
+	finish_x = $CondicaoVitoria.global_position.x
+
+	# passa as posições pro player (opcional, mas garante coerência)
+	if player:
+		player.start_x = player_start_x
+		player.end_x = finish_x
+	print("player_start_x=", player_start_x, " finish_x=", finish_x, " player.x=", player.global_position.x)
 
 func win():
 	# desativa morte
@@ -53,3 +66,14 @@ func _on_texture_button_pressed() -> void:
 	get_tree().paused = false
 	get_tree().reload_current_scene()
 	pass # Replace with function body.
+
+func get_progress(player_x: float) -> float:
+	# total absoluto entre start e finish (cobre direções invertidas)
+	var total = abs(finish_x - player_start_x)
+	# evita divisão por zero (finish não definido ou igual ao start)
+	if total == 0:
+		return 0.0
+	# distância absoluta percorrida desde o start
+	var done = abs(player_x - player_start_x)
+	# porcentagem e clamp entre 0 e 100
+	return clamp((done / total) * 100.0, 0.0, 100.0)

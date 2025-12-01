@@ -51,6 +51,10 @@ debug={
 ]
 }
 
+[plugins]
+
+claude_api/api_key=""
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

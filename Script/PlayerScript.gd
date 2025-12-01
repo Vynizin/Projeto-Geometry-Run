@@ -29,11 +29,15 @@ var coyote_time := 0.12        # tempo que ainda pode pular após sair do chão
 var coyote_timer := 0.0
 var jump_buffer_time := 0.15   # tempo que o pulo fica guardado após apertar
 var jump_buffer_timer := 0.0
+var start_x: float
+var end_x: float
+
 
 
 
 func _ready():
 	spawn_position = global_position
+	
 	#RhythmManager.beat.connect(_on_beat)
 	#if rhythm_manager:
 		#rhythm_manager.connect("beat", Callable(self, "_on_beat"))
@@ -116,11 +120,17 @@ func _physics_process(delta):
 		die()
 
 	# aumenta score baseado na velocidade real
-	score += delta * 10
-	
-	# atualiza HUD
-	var hud = get_tree().current_scene.get_node("HUD/ScoreLabel")
-	hud.text = str(int(score))
+# PROGRESSO DA FASE
+	var total = end_x - start_x
+	var atual = global_position.x - start_x
+	var progresso = clamp((atual / total) * 100.0, 0, 100)
+
+# atualiza HUD
+	var level = get_tree().current_scene
+	var progress = level.get_progress(global_position.x)
+
+	var hud = level.get_node("HUD/ScoreLabel")
+	hud.text = str(int(progress)) + "%"
 
 	move_and_slide()
 
