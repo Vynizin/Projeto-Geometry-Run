@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://b411tihb8t41i"]
+
+[ext_resource type="Texture2D" uid="uid://bh8b56y6e3sdh" path="res://Sprites/RegularBlock01.webp" id="1_kbnvj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gsorv"]
+size = Vector2(29.347834, 26.630445)
+
+[node name="SolidBlock" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+scale = Vector2(0.5320927, 0.5320927)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(1.8399987, -5.5199976)
+scale = Vector2(0.437377, 0.39967203)
+texture = ExtResource("1_kbnvj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(2.0000002, -5.499998)
+scale = Vector2(1.8399992, 1.8399992)
+shape = SubResource("RectangleShape2D_gsorv")

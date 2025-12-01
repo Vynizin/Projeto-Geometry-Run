@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=3 uid="uid://0lf7h41f61bx"]
+
+[ext_resource type="Script" uid="uid://bma7ehlltwkmf" path="res://Script/main_menu.gd" id="1_tt5f1"]
+[ext_resource type="Texture2D" uid="uid://3fiptd7l0w56" path="res://Sprites/pngtree-green-game-button-icon-2d-and-3d-play-buttons-for-ui-png-image_2964534-removebg-preview.png" id="2_8saeu"]
+[ext_resource type="Shader" uid="uid://spbnmf4sttc1" path="res://Script/MainMenu.gdshader" id="2_853f1"]
+[ext_resource type="FontFile" uid="uid://dxuumtwl0sxmx" path="res://fonts/StackSansNotch-VariableFont_wght.ttf" id="4_ghw46"]
+[ext_resource type="Script" uid="uid://bto5p1qfllov5" path="res://Script/label.gd" id="5_df05h"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8saeu"]
+shader = ExtResource("2_853f1")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_tt5f1")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 353.0
+offset_top = 235.0
+offset_right = 1147.0
+offset_bottom = 755.0
+scale = Vector2(1.5, 1.5)
+alignment = 1
+
+[node name="Jogar" type="TextureButton" parent="CanvasLayer/Control/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("2_8saeu")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/Control"]
+show_behind_parent = true
+material = SubResource("ShaderMaterial_8saeu")
+layout_mode = 0
+offset_left = -11.0
+offset_top = -76.0
+offset_right = 2941.0
+offset_bottom = 1509.0
+mouse_filter = 2
+color = Color(0.7398498, 0.7129271, 0.84319794, 1)
+
+[node name="Label" type="Label" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 139.0
+offset_top = 123.0
+offset_right = 1793.0
+offset_bottom = 448.0
+theme_override_colors/font_color = Color(0.9411765, 0.7607843, 0.1764706, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.5019608)
+theme_override_constants/shadow_offset_x = 10
+theme_override_constants/shadow_offset_y = 5
+theme_override_fonts/font = ExtResource("4_ghw46")
+theme_override_font_sizes/font_size = 150
+text = "Geometry Run"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_df05h")
+
+[connection signal="pressed" from="CanvasLayer/Control/VBoxContainer/Jogar" to="." method="_on_jogar_pressed"]
