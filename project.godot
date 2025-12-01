@@ -8,11 +8,16 @@
 
 config_version=5
 
+[addons]
+
+git_describe/commit_hash="84337e525957b77414ceb2549de60b23332509da"
+
 [application]
 
 config/name="Jogo(Godot)"
 run/main_scene="uid://0lf7h41f61bx"
 config/features=PackedStringArray("4.5", "GL Compatibility")
+config/git_describe="84337e5"
 
 [autoload]
 
