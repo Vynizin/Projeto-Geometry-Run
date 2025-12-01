@@ -18,9 +18,6 @@ func _ready():
 	finish_area = get_node(finish_area_path)
 	player_start_x = player.global_position.x
 	finish_x = finish_area.global_position.x
-	print("player_start_x =", player_start_x,
-		  "finish_x =", finish_x)
-	print("DEBUG: CondicaoVitoria =", $CondicaoVitoria.global_position)
 
 func win():
 	# desativa morte

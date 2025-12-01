@@ -118,9 +118,6 @@ func _physics_process(delta):
 		die()
 
 	# aumenta score baseado na velocidade real
-# PROGRESSO DA FASE
-	var total = end_x - start_x
-	var atual = global_position.x - start_x
 
 # atualiza HUD
 	var level = get_tree().current_scene
