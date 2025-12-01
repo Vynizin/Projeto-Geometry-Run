@@ -6091,6 +6091,478 @@ position = Vector2(24227, -121)
 [node name="SolidBlock380" parent="obstaculos" instance=ExtResource("11_62b6n")]
 position = Vector2(24257, -121)
 
+
+[node name="SolidBlock381" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25724, -227)
+
+[node name="SolidBlock382" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25745, -255)
+
+[node name="SolidBlock383" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25726, -198)
+
+[node name="SolidBlock384" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25745, -172)
+
+[node name="SolidBlock385" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25776, -253)
+
+[node name="SolidBlock386" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25776, -173)
+
+[node name="SolidBlock483" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30373, -216)
+
+[node name="SolidBlock511" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30394, -244)
+
+[node name="SolidBlock512" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30375, -187)
+
+[node name="SolidBlock513" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30394, -161)
+
+[node name="SolidBlock514" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30425, -242)
+
+[node name="SolidBlock515" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30425, -162)
+
+[node name="SolidBlock387" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25836, -173)
+
+[node name="SolidBlock388" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25836, -201)
+
+[node name="SolidBlock389" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25836, -230)
+
+[node name="SolidBlock390" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25835, -258)
+
+[node name="SolidBlock391" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25862, -258)
+
+[node name="SolidBlock392" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25891, -258)
+
+[node name="SolidBlock393" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25891, -229)
+
+[node name="SolidBlock394" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25891, -204)
+
+[node name="SolidBlock395" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25862, -204)
+
+[node name="SolidBlock396" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25881, -177)
+
+[node name="SolidBlock397" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25897, -160)
+
+[node name="SolidBlock398" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25954, -252)
+
+[node name="SolidBlock399" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25954, -224)
+
+[node name="SolidBlock400" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25954, -195)
+
+[node name="SolidBlock401" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25954, -168)
+
+[node name="SolidBlock402" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25983, -168)
+
+[node name="SolidBlock403" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26014, -168)
+
+[node name="SolidBlock408" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26066, -168)
+
+[node name="SolidBlock409" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26066, -191)
+
+[node name="SolidBlock410" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26066, -219)
+
+[node name="SolidBlock411" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26066, -247)
+
+[node name="SolidBlock412" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26094, -242)
+
+[node name="SolidBlock413" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26125, -227)
+
+[node name="SolidBlock414" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26133, -201)
+
+[node name="SolidBlock415" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26126, -175)
+
+[node name="SolidBlock416" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26097, -170)
+
+[node name="SolidBlock417" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26186, -170)
+
+[node name="SolidBlock418" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26186, -198)
+
+[node name="SolidBlock419" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26186, -223)
+
+[node name="SolidBlock420" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26186, -262)
+
+[node name="SolidBlock421" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26261, -174)
+
+[node name="SolidBlock422" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26261, -199)
+
+[node name="SolidBlock423" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26262, -227)
+
+[node name="SolidBlock424" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26263, -254)
+
+[node name="SolidBlock425" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26235, -254)
+
+[node name="SolidBlock426" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26292, -254)
+
+[node name="SolidBlock427" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26356, -174)
+
+[node name="SolidBlock428" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26328, -197)
+
+[node name="SolidBlock429" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26320, -222)
+
+[node name="SolidBlock430" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26337, -248)
+
+[node name="SolidBlock431" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26365, -267)
+
+[node name="SolidBlock432" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26389, -247)
+
+[node name="SolidBlock433" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26409, -224)
+
+[node name="SolidBlock434" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26402, -196)
+
+[node name="SolidBlock435" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26384, -173)
+
+[node name="SolidBlock436" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26508, -259)
+
+[node name="SolidBlock437" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26480, -243)
+
+[node name="SolidBlock438" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26476, -215)
+
+[node name="SolidBlock439" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26506, -210)
+
+[node name="SolidBlock440" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26532, -191)
+
+[node name="SolidBlock441" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26523, -164)
+
+[node name="SolidBlock442" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26494, -163)
+
+[node name="SolidBlock443" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26539, -259)
+
+[node name="SolidBlock521" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30741, -259)
+
+[node name="SolidBlock522" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30713, -243)
+
+[node name="SolidBlock523" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30709, -215)
+
+[node name="SolidBlock524" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30739, -210)
+
+[node name="SolidBlock525" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30765, -191)
+
+[node name="SolidBlock526" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30756, -164)
+
+[node name="SolidBlock527" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30727, -163)
+
+[node name="SolidBlock528" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30772, -259)
+
+[node name="SolidBlock444" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26602, -252)
+
+[node name="SolidBlock445" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26602, -164)
+
+[node name="SolidBlock446" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27648, -158)
+
+[node name="SolidBlock447" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27648, -186)
+
+[node name="SolidBlock448" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27648, -214)
+
+[node name="SolidBlock449" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27648, -242)
+
+[node name="SolidBlock450" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27679, -242)
+
+[node name="SolidBlock451" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27708, -229)
+
+[node name="SolidBlock452" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27708, -201)
+
+[node name="SolidBlock453" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27680, -189)
+
+[node name="SolidBlock454" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27696, -166)
+
+[node name="SolidBlock455" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27715, -151)
+
+[node name="SolidBlock456" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27776, -151)
+
+[node name="SolidBlock457" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27783, -178)
+
+[node name="SolidBlock458" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27794, -205)
+
+[node name="SolidBlock459" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27815, -230)
+
+[node name="SolidBlock460" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27836, -206)
+
+[node name="SolidBlock461" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27853, -179)
+
+[node name="SolidBlock462" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27866, -151)
+
+[node name="SolidBlock463" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27805, -171)
+
+[node name="SolidBlock464" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27830, -172)
+
+[node name="SolidBlock465" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27922, -231)
+
+[node name="SolidBlock466" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27934, -204)
+
+[node name="SolidBlock467" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27954, -179)
+
+[node name="SolidBlock468" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27978, -198)
+
+[node name="SolidBlock469" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27995, -226)
+
+[node name="SolidBlock470" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(27948, -151)
+
+[node name="SolidBlock472" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30079, -245)
+
+[node name="SolidBlock473" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30091, -218)
+
+[node name="SolidBlock474" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30111, -193)
+
+[node name="SolidBlock475" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30135, -212)
+
+[node name="SolidBlock480" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30152, -240)
+
+[node name="SolidBlock481" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30105, -165)
+
+[node name="SolidBlock482" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30188, -188)
+
+[node name="SolidBlock476" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30314, -156)
+
+[node name="SolidBlock477" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30314, -184)
+
+[node name="SolidBlock478" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30314, -212)
+
+[node name="SolidBlock479" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30314, -240)
+
+[node name="SolidBlock510" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30314, -278)
+
+[node name="SolidBlock516" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30483, -156)
+
+[node name="SolidBlock517" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30483, -184)
+
+[node name="SolidBlock518" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30483, -212)
+
+[node name="SolidBlock519" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30483, -240)
+
+[node name="SolidBlock520" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30483, -278)
+
+[node name="SolidBlock484" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30193, -215)
+
+[node name="SolidBlock485" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30198, -241)
+
+[node name="SolidBlock486" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30215, -215)
+
+[node name="SolidBlock487" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30225, -188)
+
+[node name="SolidBlock488" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30258, -182)
+
+[node name="SolidBlock508" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30262, -209)
+
+[node name="SolidBlock509" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30263, -236)
+
+[node name="SolidBlock489" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30184, -160)
+
+[node name="SolidBlock490" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30240, -162)
+
+[node name="SolidBlock491" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(29953, -247)
+
+[node name="SolidBlock492" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(29959, -221)
+
+[node name="SolidBlock493" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(29968, -194)
+
+[node name="SolidBlock494" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30005, -167)
+
+[node name="SolidBlock495" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30020, -192)
+
+[node name="SolidBlock506" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30026, -219)
+
+[node name="SolidBlock507" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30034, -246)
+
+[node name="SolidBlock496" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(29978, -168)
+
+[node name="SolidBlock529" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30538, -240)
+
+[node name="SolidBlock530" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30547, -213)
+
+[node name="SolidBlock531" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30554, -186)
+
+[node name="SolidBlock533" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30621, -186)
+
+[node name="SolidBlock534" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30627, -213)
+
+[node name="SolidBlock535" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30635, -240)
+
+[node name="SolidBlock536" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30559, -159)
+
+[node name="SolidBlock537" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30586, -159)
+
+[node name="SolidBlock538" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(30615, -159)
+
+[node name="SolidBlock404" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25979, -213)
+
+[node name="SolidBlock405" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26008, -213)
+
+[node name="SolidBlock406" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(25983, -252)
+
+[node name="SolidBlock407" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(26010, -252)
+
+[node name="SolidBlock471" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28901, -252)
+
+[node name="SolidBlock497" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28901, -224)
+
+[node name="SolidBlock498" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28901, -195)
+
+[node name="SolidBlock499" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28901, -168)
+
+[node name="SolidBlock500" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28930, -168)
+
+[node name="SolidBlock501" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28961, -168)
+
+[node name="SolidBlock502" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28926, -213)
+
+[node name="SolidBlock503" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28955, -213)
+
+[node name="SolidBlock504" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28930, -252)
+
+[node name="SolidBlock505" parent="obstaculos" instance=ExtResource("11_62b6n")]
+position = Vector2(28957, -252)
+
 [node name="SolidBlock220" parent="obstaculos" instance=ExtResource("11_62b6n")]
 position = Vector2(14328, -26)
 
@@ -7861,6 +8333,19 @@ position = Vector2(23639, -148)
 
 [node name="Spike308" parent="obstaculos" instance=ExtResource("2_3mhv4")]
 position = Vector2(24258, -148)
+
+[node name="Spike545" parent="obstaculos" instance=ExtResource("2_3mhv4")]
+position = Vector2(25122, 2)
+
+[node name="Spike546" parent="obstaculos" instance=ExtResource("2_3mhv4")]
+position = Vector2(25138, 2)
+
+[node name="Spike547" parent="obstaculos" instance=ExtResource("2_3mhv4")]
+position = Vector2(25154, 2)
+
+[node name="Spike548" parent="obstaculos" instance=ExtResource("2_3mhv4")]
+position = Vector2(25172, 2)
+
 
 [node name="Spike83" parent="obstaculos" instance=ExtResource("2_3mhv4")]
 position = Vector2(7781, 1)
