@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://dfkhl5p3rkr4p"]
+[gd_scene load_steps=27 format=4 uid="uid://dfkhl5p3rkr4p"]
 
 [ext_resource type="Texture2D" uid="uid://cgo0tlrxq1ma0" path="res://Sprites/PC___Computer_-_Geometry_Dash_-_Backgrounds_and_Grounds_-_Ground_1.png" id="1_hyo27"]
 [ext_resource type="Script" uid="uid://ctpjfhvsl7ngd" path="res://Script/level_1.gd" id="1_xoyoh"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://6guo0hae46rn" path="res://Sprites/cube_2_1.png" id="6_77x7w"]
 [ext_resource type="Script" uid="uid://u6memfknp8ko" path="res://Script/camera_2d.gd" id="7_lk57d"]
 [ext_resource type="PackedScene" uid="uid://b6yd60wxmbj4x" path="res://Scenes/DeathExplosion.tscn" id="7_xoyoh"]
+[ext_resource type="Script" uid="uid://d2jsv7pmvajin" path="res://Script/color_rect.gd" id="9_34erp"]
 [ext_resource type="AudioStream" uid="uid://d08axm47a2qci" path="res://Audio/WhatsApp-Audio-2025-11-27-at-19.33.59.ogg" id="9_xoyoh"]
 [ext_resource type="PackedScene" uid="uid://xd6a72nqx81p" path="res://Scenes/back_ground.tscn" id="10_lk57d"]
 [ext_resource type="PackedScene" uid="uid://b411tihb8t41i" path="res://Scenes/Blocks/SolidBlock.tscn" id="11_62b6n"]
@@ -5129,6 +5130,7 @@ size = Vector2(186.5, 310.25)
 [node name="Level1" type="Node2D"]
 script = ExtResource("1_xoyoh")
 rhythm_manager_path = NodePath("RhythmManager")
+finish_area_path = NodePath("CondicaoVitoria")
 
 [node name="obstaculos" type="Node2D" parent="."]
 position = Vector2(681, 20)
@@ -8061,11 +8063,31 @@ libraries = {
 }
 
 [node name="CondicaoVitoria" type="Area2D" parent="."]
+position = Vector2(34486, 15)
 collision_layer = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CondicaoVitoria"]
-position = Vector2(34592, -101)
+position = Vector2(106, -116)
 shape = SubResource("RectangleShape2D_2hkqn")
+
+[node name="flash" type="CanvasLayer" parent="."]
+
+[node name="ColorRectf" type="ColorRect" parent="flash"]
+process_mode = 3
+z_index = 999
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2852.0
+offset_top = -1637.0
+offset_right = -2852.0
+offset_bottom = -1637.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+color = Color(1, 1, 1, 0)
+script = ExtResource("9_34erp")
 
 [connection signal="beat" from="RhythmManager" to="Player/Camera2D" method="_on_beat"]
 [connection signal="pressed" from="VitoriaUI/Control/TextureButton" to="." method="_on_texture_button_pressed"]

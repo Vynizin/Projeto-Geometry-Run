@@ -1,7 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://xd6a72nqx81p"]
+[gd_scene load_steps=4 format=3 uid="uid://xd6a72nqx81p"]
 
 [ext_resource type="Script" uid="uid://c2ykaqy51842v" path="res://Script/parallax_background.gd" id="1_nq3ab"]
 [ext_resource type="Texture2D" uid="uid://djrf4xmby51gv" path="res://Sprites/9207849.jpg" id="2_xb1mu"]
+
+[sub_resource type="GDScript" id="GDScript_nq3ab"]
+script/source = "extends TextureRect
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [node name="BackGround" type="Node2D"]
 
@@ -20,3 +34,4 @@ offset_bottom = 360.0
 texture = ExtResource("2_xb1mu")
 expand_mode = 1
 stretch_mode = 1
+script = SubResource("GDScript_nq3ab")

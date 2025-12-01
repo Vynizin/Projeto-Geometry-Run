@@ -50,8 +50,6 @@ func _ready():
 
 
 func _physics_process(delta):
-	ray_left.enabled = false
-	ray_right.enabled = false
 	# COYOTE TIME
 	if is_on_floor():
 		coyote_timer = coyote_time
@@ -123,7 +121,6 @@ func _physics_process(delta):
 # PROGRESSO DA FASE
 	var total = end_x - start_x
 	var atual = global_position.x - start_x
-	var progresso = clamp((atual / total) * 100.0, 0, 100)
 
 # atualiza HUD
 	var level = get_tree().current_scene

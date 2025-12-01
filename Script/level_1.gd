@@ -1,30 +1,26 @@
 extends Node2D
 
 @export var rhythm_manager_path: NodePath
+@export var finish_area_path: NodePath
 var rhythm_manager
 var player_start_x: float
 var finish_x: float
+var finish_area
 
 
 func _ready():
 	rhythm_manager = get_node(rhythm_manager_path)
-
 	$MusicPlayer.seek(0)
 	$MusicPlayer.play()
-
-	# garante que a UI NÃO aparece no início
 	$VitoriaUI.visible = false
-	# o Area2D de vitória
-
+	await get_tree().process_frame  # ← ESPERA 1 FRAME
 	var player = get_tree().current_scene.get_node("Player")
+	finish_area = get_node(finish_area_path)
 	player_start_x = player.global_position.x
-	finish_x = $CondicaoVitoria.global_position.x
-
-	# passa as posições pro player (opcional, mas garante coerência)
-	if player:
-		player.start_x = player_start_x
-		player.end_x = finish_x
-	print("player_start_x=", player_start_x, " finish_x=", finish_x, " player.x=", player.global_position.x)
+	finish_x = finish_area.global_position.x
+	print("player_start_x =", player_start_x,
+		  "finish_x =", finish_x)
+	print("DEBUG: CondicaoVitoria =", $CondicaoVitoria.global_position)
 
 func win():
 	# desativa morte

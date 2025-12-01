@@ -10,3 +10,4 @@
 [node name="CanvasLayer" type="CanvasLayer" parent="Main"]
 
 [node name="Level 1" parent="Main" instance=ExtResource("4_xecxc")]
+rhythm_manager_path = NodePath("")
