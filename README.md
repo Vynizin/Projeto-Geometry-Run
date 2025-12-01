@@ -49,7 +49,6 @@ Cada fase possui um único checkpoint: o início — um erro significa reiniciar
 Tecnologia	Uso
 Godot Engine 4.x	Motor principal do jogo
 GDScript	Programação de lógica e mecânicas
-Aseprite / Photoshop	Criação de sprites (se aplicável)
 Git + GitHub	Controle de versão do projeto
 ChatGPT (auxílio mínimo)	Sugestões pontuais de código e documentação
 
